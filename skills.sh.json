@@ -1,0 +1,16 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Reading & Annotations",
+      "description": "Skills for reading EPUBs with annotations and highlights.",
+      "skills": ["annotated-reader"]
+    },
+    {
+      "title": "Content Conversion",
+      "description": "Skills for converting web content, videos, and transcripts to EPUB ebooks.",
+      "skills": ["web-to-epub"]
+    }
+  ]
+}
