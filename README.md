@@ -1,25 +1,15 @@
 # Arun's Agent Skills
 
-A collection of skills for AI coding agents. Skills packaged as SKILL.md files following the [Agent Skills](https://agentskills.io/) standard.
+**Individual skill repos** — each skill is installed and discovered separately:
 
-## Skills
+| Skill | Repo | Description |
+|-------|------|-------------|
+| annotated-reader | [arun2565/annotated-reader](https://github.com/Arun2565/annotated-reader) | Overlay MoonReader highlights on EPUB chapter text |
+| web-to-epub | [arun2565/web-to-epub](https://github.com/Arun2565/web-to-epub) | Convert YouTube/substack/web to EPUB ebooks |
 
-- **annotated-reader** — Overlay MoonReader highlights on EPUB chapter text for re-reading (Apple Books style).
-- **web-to-epub** — Convert YouTube videos, Substack transcripts, and web articles into EPUB ebooks.
-
-## Installation
-
-```bash
-npx skills add arun2565/agent-skills
-```
-
-## Building
+## Install
 
 ```bash
-npm ci --ignore-scripts
-node scripts/build-discovery-index.mjs https://raw.githubusercontent.com/arun2565/agent-skills/main/dist
+npx skills add arun2565/annotated-reader
+npx skills add arun2565/web-to-epub
 ```
-
-## License
-
-MIT
